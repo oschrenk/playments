@@ -1,4 +1,15 @@
-This is your new Play 2.1 application
-=====================================
+# README #
 
-This file will be packaged with your application, when using `play dist`.
+	{
+		"service": "[visa|amex|mastercard]",
+		"number ": "<number>",
+		"security": "<number>"
+	}
+
+Example:
+
+    {
+        "service": "visa",
+        "number": "4111111111111111",
+        "security": "123"
+    }
